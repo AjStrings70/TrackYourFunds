@@ -1,4 +1,4 @@
-import { OrganizationSummary } from "../types";
+import { OrganizationSummary } from "../types.ts";
 
 interface DashboardProps {
   summary: OrganizationSummary;

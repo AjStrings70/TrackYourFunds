@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import { Dashboard } from "./components/Dashboard";
-import { OrganizationSummary } from "./types";
+import { Dashboard } from "./components/Dashboard.tsx";
+import { OrganizationSummary } from "./types.ts";
 
 const defaultSummary: OrganizationSummary = {
   organizationName: "Template Manufacturing Co.",

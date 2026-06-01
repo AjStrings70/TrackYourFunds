@@ -1,11 +1,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from .api.api_v1.api import api_router
-from .db.session import engine
-from .db.base import Base
-
-# Create database tables on startup for development/demo purposes.
-Base.metadata.create_all(bind=engine)
 
 app = FastAPI(
     title="TrackYourFunds Business Finance API",
